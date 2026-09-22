@@ -1,0 +1,44 @@
+{
+  "sample": 59,
+  "seed": 20260922,
+  "stat": {
+    "subject": {
+      "ok": 45,
+      "diff": 0,
+      "no_ref": 14
+    },
+    "method": {
+      "ok": 59,
+      "diff": 0,
+      "no_ref": 0
+    },
+    "price_rub": {
+      "ok": 59,
+      "diff": 0,
+      "no_ref": 0
+    },
+    "deadline": {
+      "ok": 44,
+      "diff": 1,
+      "no_ref": 14
+    },
+    "published": {
+      "ok": 59,
+      "diff": 0,
+      "no_ref": 0
+    },
+    "customer_code": {
+      "ok": 59,
+      "diff": 0,
+      "no_ref": 0
+    }
+  },
+  "diffs": [
+    {
+      "reg": "0119200000126015714",
+      "field": "deadline",
+      "из_списка": "25.09.2026",
+      "из_карточки": "28.09.2026"
+    }
+  ]
+}
